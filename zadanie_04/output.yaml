@@ -1,0 +1,14 @@
+data:
+  format: csv
+  path: data/training
+  validation_split: 0.25
+model:
+  max_depth: 15
+  n_estimators: 200
+  random_state: 123
+  type: gradient_boosting
+training:
+  batch_size: 128
+  early_stopping: true
+  epochs: 10
+  learning_rate: 0.005
