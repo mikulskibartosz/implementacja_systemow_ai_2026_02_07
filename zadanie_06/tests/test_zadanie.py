@@ -1,5 +1,3 @@
-# zwrócenie listy wszystkich zadań i ich statusów
-
 from enum import Enum
 
 class TaskStatus(Enum):
