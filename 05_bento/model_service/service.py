@@ -34,3 +34,13 @@ class IrisClassifierService():
 
         pred_class = self.model.predict(feature_array)[0]
         return SPECIES[pred_class]
+
+    @bentoml.api()
+    def predict_batch(self, features_batch: pd.DataFrame):
+        pred_classes = self.model.predict(features_batch)
+
+        results = []
+        for i, pred_class in enumerate(pred_classes):
+            results.append(SPECIES[pred_class])
+
+        return {"predictions": results}
