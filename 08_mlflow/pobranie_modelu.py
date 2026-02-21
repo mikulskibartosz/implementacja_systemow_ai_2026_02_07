@@ -22,3 +22,13 @@ print(loaded_model)
 
 prediction = loaded_model.predict([iris_features])
 print(prediction)
+
+print("Pobranie z ModelRegistry - alias")
+model_name = "IrisClassifier"
+model_alias = "production"
+
+loaded_model = mlflow.sklearn.load_model(f"models:/{model_name}@{model_alias}")
+print(loaded_model)
+
+prediction = loaded_model.predict([iris_features])
+print(prediction)
