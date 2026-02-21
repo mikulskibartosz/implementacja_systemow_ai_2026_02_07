@@ -1,0 +1,1 @@
+To same .venv co w 07_streamlit
