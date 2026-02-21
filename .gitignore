@@ -3,5 +3,6 @@
 **/.venv/*
 **/*.joblib
 **/mlruns/**
+**/mlartifacts/**
 mlflow.db
 iris_df.csv
