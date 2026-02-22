@@ -1,0 +1,1 @@
+dvc stage add -n download_data -d download_data.py -d params.yaml -o data/iris.csv python download_data.py
