@@ -7,3 +7,4 @@
 mlflow.db
 iris_df.csv
 *.pkl
+*.png
