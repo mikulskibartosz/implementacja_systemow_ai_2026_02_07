@@ -32,3 +32,4 @@ optuna-integration==4.7.0
 seaborn==0.13.2
 plotly==6.5.2
 kaleido==1.2.0
+dvc==3.66.1
