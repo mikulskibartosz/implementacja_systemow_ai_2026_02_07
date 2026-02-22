@@ -9,3 +9,9 @@ dvc exp run
 dvc dag
 
 dvc exp show
+
+dvc exp run --set-param train.max_depth=5
+
+dvc metrics show
+
+dvc metrics diff HEAD~1 HEAD
