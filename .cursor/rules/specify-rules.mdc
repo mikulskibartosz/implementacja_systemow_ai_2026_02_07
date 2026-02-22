@@ -1,0 +1,30 @@
+# implementacja_systemow_ai_2026_02_07 Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2026-02-22
+
+## Active Technologies
+
+- Python 3.11+ + Streamli (001-streamlit-todolist)
+
+## Project Structure
+
+```text
+backend/
+frontend/
+tests/
+```
+
+## Commands
+
+cd src [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLOGIES] pytest [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLOGIES] ruff check .
+
+## Code Style
+
+Python 3.11+: Follow standard conventions
+
+## Recent Changes
+
+- 001-streamlit-todolist: Added Python 3.11+ + Streamli
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
