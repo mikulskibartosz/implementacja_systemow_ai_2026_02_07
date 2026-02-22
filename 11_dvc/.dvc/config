@@ -1,0 +1,4 @@
+[core]
+    remote = katalog
+['remote "katalog"']
+    url = /Users/myszon/Projects/sages/implementacja_systemow_ai_2026_02_07/dvc_remote

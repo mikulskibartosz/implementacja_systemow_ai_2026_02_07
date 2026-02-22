@@ -8,3 +8,4 @@ mlflow.db
 iris_df.csv
 *.pkl
 *.png
+dvc_remote/*
