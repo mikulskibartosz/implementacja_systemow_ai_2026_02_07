@@ -1,0 +1,8 @@
+stages:
+  download_data:
+    cmd: python download_data.py
+    deps:
+    - download_data.py
+    - params.yaml
+    outs:
+    - data/iris.csv

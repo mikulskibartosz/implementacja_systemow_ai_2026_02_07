@@ -1,2 +1,2 @@
 download:
-  output_path: data/dataset.csv
+  output_path: data/iris.csv

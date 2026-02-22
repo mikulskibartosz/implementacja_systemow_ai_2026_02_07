@@ -29,7 +29,7 @@ def main():
     with open("params.yaml", "r") as f:
         params = yaml.safe_load(f)
 
-    output_path = params.get("download", {}).get("output_path", "data/dataset.csv")
+    output_path = params.get("download", {}).get("output_path", "data/iris.csv")
 
     download_iris_dataset(output_path)
 
