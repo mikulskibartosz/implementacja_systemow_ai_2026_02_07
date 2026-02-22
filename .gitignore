@@ -9,3 +9,4 @@ iris_df.csv
 *.pkl
 *.png
 dvc_remote/*
+**/tasks.db
