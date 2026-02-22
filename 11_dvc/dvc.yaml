@@ -6,3 +6,14 @@ stages:
     - params.yaml
     outs:
     - data/iris.csv
+  train_model:
+    cmd: python train_model.py
+    deps:
+    - data/iris.csv
+    - params.yaml
+    - train_model.py
+    outs:
+    - models/model.pkl
+    metrics:
+    - metrics.json:
+        cache: false
